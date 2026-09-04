@@ -16,3 +16,9 @@ nav {
   left: 20px;
   width: 300px;
 }
+main {
+  position: absolute;
+  top: 145px;
+  left: 420px;
+  width: 540px;
+}
