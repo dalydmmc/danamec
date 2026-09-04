@@ -10,23 +10,27 @@ body {
 
   font-family: Georgia, serif;
 }
+
 nav {
   position: absolute;
   top: 100px;
   left: 20px;
-  width: 300px;
+  width: 320px;
 }
+
 main {
   position: absolute;
   top: 145px;
   left: 420px;
   width: 540px;
 }
+
 footer {
   position: absolute;
   bottom: 20px;
   left: 420px;
 }
+
 nav a {
   color: #3b205c;
   text-decoration: none;
@@ -36,10 +40,4 @@ nav a {
 
 nav a:hover {
   color: #8b5aa8;
-}
-nav {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  width: 320px;
 }
