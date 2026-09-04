@@ -34,8 +34,12 @@ footer {
 nav a {
   color: #3b205c;
   text-decoration: none;
-  margin-right: 8px;
-  font-size: 16px;
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+nav {
+  white-space: nowrap;
 }
 
 nav a:hover {
