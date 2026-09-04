@@ -1,7 +1,12 @@
 body {
   margin: 0;
+  min-height: 100vh;
+
   background-image: url("DANAMEC.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-size: 1366px 768px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #21113a;
+
+  font-family: Georgia, serif;
 }
