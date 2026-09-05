@@ -24,19 +24,20 @@ body {
 .redes h3 {
   color: #3b205c;
   font-size: 20px;
+  margin-bottom: 12px;
 }
 
 .redes a {
   color: #3b205c;
   text-decoration: none;
   margin-right: 10px;
+  font-size: 16px;
 }
 
 .redes a:hover {
   color: #8b5aa8;
+  text-decoration: underline;
 }
-
-
 /* CONTENIDO CENTRAL */
 
 main {
