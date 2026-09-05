@@ -90,3 +90,16 @@ footer {
   bottom: 20px;
   left: 450px;
 }
+/* GALERÍA DE ARTE */
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
