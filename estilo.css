@@ -63,6 +63,7 @@ main {
 
 .menu-principal a:hover {
   color: #8b5aa8;
+  text-decoration: underline;
 }
 
 
