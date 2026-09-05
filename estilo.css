@@ -11,40 +11,63 @@ body {
   font-family: Georgia, serif;
 }
 
-nav {
+
+/* REDES SOCIALES */
+
+.redes {
   position: absolute;
-  top: 100px;
-  left: 20px;
-  width: 320px;
+  top: 200px;
+  left: 25px;
+  width: 300px;
 }
+
+.redes h3 {
+  color: #3b205c;
+  font-size: 20px;
+}
+
+.redes a {
+  color: #3b205c;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.redes a:hover {
+  color: #8b5aa8;
+}
+
+
+/* CONTENIDO CENTRAL */
 
 main {
   position: absolute;
-  top: 145px;
+  top: 250px;
   left: 420px;
   width: 540px;
 }
 
-footer {
-  position: absolute;
-  bottom: 20px;
-  left: 420px;
+
+/* MENÚ PRINCIPAL */
+
+.menu-principal {
+  white-space: nowrap;
+  margin-bottom: 35px;
 }
 
-nav a {
+.menu-principal a {
   color: #3b205c;
   text-decoration: none;
-  margin-right: 6px;
-  font-size: 15px;
+  margin-right: 10px;
+  font-size: 16px;
 }
 
-nav {
-  white-space: nowrap;
-}
-
-nav a:hover {
+.menu-principal a:hover {
   color: #8b5aa8;
 }
+
+
+/* TEXTO */
+
 main h2 {
   color: #3b205c;
   font-size: 28px;
@@ -55,4 +78,13 @@ main p {
   color: #4a3a4f;
   font-size: 17px;
   line-height: 1.6;
+}
+
+
+/* COPYRIGHT */
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 420px;
 }
