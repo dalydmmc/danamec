@@ -90,16 +90,37 @@ footer {
   bottom: 20px;
   left: 450px;
 }
-/* GALERÍA DE ARTE */
+/* CARRUSEL */
 
-.galeria {
-  display: grid;
- grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+.carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
 }
 
-.galeria img {
+.obras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   width: 100%;
-  height: auto;
-  display: block;
+}
+
+.obra {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.obra img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flecha {
+  font-size: 25px;
+  cursor: pointer;
 }
